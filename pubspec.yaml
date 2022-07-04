@@ -34,10 +34,9 @@ flavorizr:
         name: "Development Flavor"
 
       android:
-        applicationId: "com.dev.flavorsdemo"
-
+        applicationId: "com.biscuit.flavor_demo.dev"
       ios:
-        bundleId: "com.dev.flavorsdemo"
+        bundleId: "com.biscuit.flavorDemo.dev"
         # buildSettings:
         #   # Development Team is visible in the apple developer portal 
         #   DEVELOPMENT_TEAM: YOURDEVTEAMID 
@@ -48,9 +47,9 @@ flavorizr:
         name: "Staging App"
 
       android:
-        applicationId: "com.staging.flavorsdemo"
+        applicationId: "com.biscuit.flavor_demo.stag"
       ios:
-        bundleId: "com.staging.flavorsdemo"
+        bundleId: "com.biscuit.flavorDemo.stag"
         # buildSettings:
         #   DEVELOPMENT_TEAM: YOURSTAGINGTEAMID
         #   PROVISIONING_PROFILE_SPECIFIER: "Staging-ProvisioningProfile"
@@ -60,9 +59,9 @@ flavorizr:
         name: "Production App"
 
       android:
-        applicationId: "com.production.flavorsdemo"
+        applicationId: "com.biscuit.flavor_demo"
       ios:
-        bundleId: "com.production.flavorsdemo"
+        bundleId: "com.biscuit.flavorDemo"
         # buildSettings:
         #   DEVELOPMENT_TEAM: YOURPRODUCTIONTEAMID
         #   PROVISIONING_PROFILE_SPECIFIER: "Production-ProvisioningProfile"

@@ -33,17 +33,17 @@ android {
     productFlavors {
         development {
             dimension "flavor-type"
-            applicationId "com.biscuit.flavor_demo"
+            applicationId "com.biscuit.flavor_demo.dev"
             resValue "string", "app_name", "Development Flavor"
         }
         staging {
             dimension "flavor-type"
-            applicationId "com.staging.flavorsdemo"
+            applicationId "com.biscuit.flavor_demo.stag"
             resValue "string", "app_name", "Staging App"
         }
         production {
             dimension "flavor-type"
-            applicationId "com.production.flavorsdemo"
+            applicationId "com.biscuit.flavor_demo"
             resValue "string", "app_name", "Production App"
         }
     }
@@ -62,7 +62,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "flavor_demo.flavor_demo"
+        applicationId "com.biscuit.flavor_demo"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode flutterVersionCode.toInteger()
